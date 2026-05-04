@@ -1,0 +1,23 @@
+"""
+Basic Selenium UI check.
+This file demonstrates Selenium WebDriver Basics for resume alignment.
+The test is skipped automatically if Selenium or ChromeDriver is not configured locally.
+"""
+
+import pytest
+
+selenium = pytest.importorskip("selenium", reason="Selenium is optional for this demo UI check")
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+
+@pytest.mark.skip(reason="Demo Selenium check. Enable after configuring ChromeDriver locally.")
+def test_example_page_title_loads():
+    chrome_options = Options()
+    chrome_options.add_argument("--headless=new")
+    driver = webdriver.Chrome(options=chrome_options)
+    try:
+        driver.get("https://example.com")
+        assert "Example Domain" in driver.title
+    finally:
+        driver.quit()

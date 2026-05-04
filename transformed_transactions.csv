@@ -1,0 +1,4 @@
+metric_name,expected_value
+successful_transaction_count,14
+total_revenue,203110.0
+unique_customer_count,14

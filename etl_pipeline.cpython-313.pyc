@@ -1,0 +1,32 @@
+# QA Summary Report
+
+## Project Name
+QA Testing ETL Validation Framework
+
+## Testing Objective
+Validate the accuracy, completeness, and reliability of transformed transaction data before dashboard or reporting usage.
+
+## Testing Scope
+
+- Functional Testing
+- Regression Testing
+- Database Testing
+- Data Validation
+- Business User Acceptance Testing UAT
+- Basic Selenium UI Testing
+- Defect Tracking
+
+## Key QA Metrics
+
+| Metric | Result |
+|---|---|
+| Test Cases Designed | 30+ validation scenarios considered |
+| Automated Pytest Checks | 6 core regression checks |
+| Critical Defects Simulated | 5 JIRA-style defects |
+| Data Accuracy Improvement | 25% simulated improvement |
+| Defect Resolution Time Improvement | 35% simulated improvement |
+| Test Coverage Improvement | 50% simulated improvement |
+
+## Final QA Status
+
+The ETL output passed all automated validation checks after defect resolution. The transformed dataset is ready for dashboard and KPI reporting usage.

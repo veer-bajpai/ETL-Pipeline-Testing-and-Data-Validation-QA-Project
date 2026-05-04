@@ -1,0 +1,16 @@
+transaction_id,customer_id,transaction_date,category,quantity,unit_price,discount_pct,payment_status
+T1001,C001,2026-01-02,Electronics,1,55000,10,Success
+T1002,C002,2026-01-03,Fashion,3,1200,5,Success
+T1003,C003,2026-01-04,Grocery,10,120,0,Success
+T1004,C004,2026-01-05,Electronics,1,30000,15,Failed
+T1005,C005,2026-01-06,Home,2,4500,10,Success
+T1006,C006,2026-01-07,Fashion,4,900,20,Success
+T1007,C007,2026-01-08,Grocery,8,150,0,Success
+T1008,C008,2026-01-09,Home,1,8000,5,Success
+T1009,C009,2026-01-10,Electronics,2,25000,12,Success
+T1010,C010,2026-01-11,Fashion,1,2500,0,Success
+T1011,C011,2026-01-12,Grocery,12,100,0,Success
+T1012,C012,2026-01-13,Home,3,3000,10,Success
+T1013,C013,2026-01-14,Electronics,1,75000,8,Success
+T1014,C014,2026-01-15,Fashion,2,1800,15,Success
+T1015,C015,2026-01-16,Grocery,15,90,0,Success
